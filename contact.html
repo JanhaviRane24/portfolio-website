@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Janhavi Rane-Web Developer and Programmer</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div class="container">
+<div class="sidebar sidebarGo">
+ <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="intro.html">My Intro</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+ </nav>
+</div>
+
+<div class="main">
+  <div class="hamburger">
+    <img class="ham" src="/images/ham.png" alt="ham" width="23px">
+    <img class="cross" src="/images/cross.png" alt="cross" width="23px">
+</div>
+    <div class="contactform">
+        <h1>Contact Me for Work/General Enquires</h1>
+        <form>
+          <div class="mb-3">
+              <label for="clientname" class="form-label">Name</label>
+              <input type="text" class="form-control" id="clientname" name="clientname" required>
+          </div>
+          <div class="mb-3">
+              <label for="clientemail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="clientemail" name="clientemail" aria-describedby="emailHelp" required>
+              <div id="emailHelp" class="form-text">We'll never share your email & phone number with anyone else.</div>
+          </div>
+          <div class="mb-3">
+              <label for="clientphone" class="form-label">Phone</label>
+              <input type="tel" class="form-control" id="clientphone" name="clientphone" required>
+          </div>
+          <div class="mb-3">
+              <label for="clientenquiry" class="form-label">Enquiry</label>
+              <input type="text" class="form-control" id="clientenquiry" name="clientenquiry" required>
+          </div>
+          <!-- <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="isclient" name="isclient">
+              <label class="form-check-label" for="isclient">I want you to work on a project</label>
+          </div> -->
+          <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+      </form>
+      
+    </div>
+</div>
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

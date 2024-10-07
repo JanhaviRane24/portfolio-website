@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.main-project{
+    /* margin:20px;
+    padding:10px; */
+    width: 1440px;
+}
+.container{
+    display: flex;
+    margin:0px;
+    padding:0px;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(168, 166, 166);
+    font-family: "Fira Sans", sans-serif;
+    height: 100em;
+    transition: transform 0.3s ease-in-out;
+}
+.sidebar nav{
+padding: 14px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(10, 7, 7);
+}
+.infoContainer{
+    /* background-color: rgb(0, 255, 34); */
+    height:58vh;
+    width:80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+ height:65vh;
+ }
+.hello{
+    font-size: 3em;;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+    
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2em;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 16px;
+    margin:0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color:white;
+    color: dodgerblue; 
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin:3px 3px;
+    cursor: pointer;
+
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+    background-color:white;
+    color: dodgerblue; 
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:"Source Code Pro" , monospace;
+}
+.contactform h1{
+font-family: "Source Code Pro", monospace;
+/* padding: 12px 0; */
+}
+.contactform{
+    font-family: "Fira Sans", sans-serif;
+    padding:0 34px;
+    margin: 88px;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form{
+    margin: 0 40px;
+}
+
+.contactform form div input{
+    /* width: 26vw; */
+    margin: 6px 0 0 0;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color:midnightblue;
+    margin:0 6px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+    margin: 20px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.blogItem h2,p{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.blogContainer{
+    margin: 70px 88px;
+}
+h1{
+    font-family: "Fira Sans", sans-serif;
+    margin:23px;
+
+}
+p{
+    font-family: "Source Code Pro", monospace;
+}
+.Intro{
+    margin:70px 88px;
+}
+.Intro h2{
+    font-family: "Fira Sans", sans-serif;
+    margin: 12px;
+
+}
+.Intro p{
+    font-family: "Source Code Pro", monospace;
+    margin:12px;
+}
+.skillsContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+}
+.skill{
+    width:265px;
+    height:6px;
+    background-color: red;
+    border:2px solid black;
+}
+.s-100{
+    width:265px;
+    background-color: blueviolet;
+}
+.s-50{
+    width:125px;
+    background-color: aqua;
+}
+.s-25{
+    width:75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+   }
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 130px;
+}
+.projectContainer{
+    margin: 20px 180px;
+    width: 1000px;
+}
+.projectContainer h2{
+    margin-top: 40px;
+}
+.caption ul li{
+    margin: 10px;
+}
+.servicesContainer{
+    margin: 60px 179px;
+    display: flex;
+    background-color:white;
+    position: relative;
+    padding: 10px;
+    width: 1000px;
+    height:400px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.service{
+    height: 280px;
+    width: 950px;
+    background-color:white;
+    font-size: larger;
+    color:black;
+    border:2px solid black;
+    border-radius: 15%;
+    margin: 10px 10px;
+    padding: 40px 20px;
+    font-family: "Fira Sans", sans-serif;
+    /* align-content: center;
+    justify-content: center; */
+}
+.servicesContainer h4,h2{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    /* align-items: center;
+    justify-content: center; */
+    padding-bottom:15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-left: 17px;
+    padding-right: 5px;
+
+}
+.servicesContainer p{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    padding:10px;
+    margin:10px;
+}
+@media (max-width: 320px){
+*{
+     /* background-color:rgb(237, 151, 151); */
+} 
+.buttons{
+    font-size: 6px;
+}
+.devinfo{
+    font-size: 10px;
+}
+.devpic{
+    display: none;
+}
+.Intro,.blogContainer,.contactform{
+    margin:50px 8px;
+}
+} 
+/* styles.css */
+
+/* Use a cohesive color scheme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Card Hover Effect */
+.blogItem, .thumbnail {
+    transition: transform 0.3s;
+}
+
+.blogItem:hover, .thumbnail:hover {
+    transform: scale(1.05);
+}
