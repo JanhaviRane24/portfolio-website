@@ -1,3 +1,3 @@
 personal portfolio website
 
-link:https://janujagruti.github.io/portfolio-website/
+link:https://janhavirane24.github.io/portfolio-website/
